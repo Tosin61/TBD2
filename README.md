@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Project: TBD
+Authors: Lailah Weatherspoon, J’nya Reese, Deron Moore, Tosin Adeyemi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Team Membership and Organization
+Project Manager: Lailah Weatherspoon\
+Front End: J’nya Reese & Lailah Weatherspoon\
+Back End: Deron Moore\
+Full Stack: Tosin Adeyemi\
+Misc (everything else): Team Collaboration
 
-## Available Scripts
 
-In the project directory, you can run:
+## [Project Documentation](https://drive.google.com/drive/u/0/folders/1fflkjzXIfazVZ_adfZr3sFcW8R6DkTPD)
+* [Meeting Agendas](https://www.google.com/url?q=https://docs.google.com/document/d/15_Dao3CLNgXydNBfuAb5XrKeI7KNm1nxMDiHjIxBY7M/edit&sa=D&source=calendar&usd=2&usg=AOvVaw13dZk2U-blZN2c8GZVw-G5)
+* [Project Charter](https://docs.google.com/document/d/1SYorhBvQUBpq6Dne8KHgvsIJY5RwFYfp4SBYGlYbai8/edit#)
+* [Project Pitch 1-Pager](https://docs.google.com/document/d/1Zk8bmZ-NscnVrYPRxMH8WyRCrR-cb10Y-OA7ZCFKDZc/edit#)
+* [Project Proposal Presentation](https://docs.google.com/presentation/d/1jQhQL-QbAMCM3v4I8bjfTyupHeKfOrv7sBOnkAvFjSY/edit?usp=sharing)
+* [Project Proposal Recording](https://drive.google.com/file/d/1z477nlVGZlXAcTV_SlC0jd6S6q1V2MKt/view?usp=sharing)
+* [Product Requirements Document](https://docs.google.com/document/d/1-x09Z8kJyZXvB_ZgD_usVYPDXn1HS6SLPrVc_JAKMbM/edit?usp=sharing)
+* UI/UX Design
+* Design Document
+* Testing Plan
+* Final Presentation
 
-### `yarn start`
+## *[In a few sentences, describe the main idea.]*
+TBD is a story-based game where the user can select from a given list of characters and will need to get their character from point A to B based on their character’s personality. The user is given information about their character’s personality and typical decision-making, as well as how the story begins and ends, but are not given the middle of the story. The user will need to correctly identify which choices their character would make to get from beginning to end. Users win the game by successfully completing the story from their character’s point of view.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## *[Summarize the key features...]*
+- The user is able to login
+- Users can select a character from a given list
+- Users can see the plot (just beginning and end goal) for their character
+- Users can see their character’s personality information
+- Users can make decisions on what the middle of the story looks like
+- User is told when their answer is wrong
+- User is shown the right answer after a 2nd wrong answer
+- User is given 3 number of lives (where 1 life = 4 points; max points is 12 - user sees the lives, we see the points)
+- Users receive the appropriate alternate ending to the story based on their user score
+- User continues through the plot until they successfully reach “The End”
+- Users can start a new story
+- Users can start over their story
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## *[In a few sentences, summarize any technical dependencies.]*
+We will be using React (JavaScript, JSX (includes HTML)), and CSS for the frontend. We will use NodeJS for our backend environment. Firebase will be used for data storage and management, and Google for users to use their existing login information. Our code will be created in Visual Studio 2019, and source code will be managed through GitHub.
