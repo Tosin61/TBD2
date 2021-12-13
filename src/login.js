@@ -56,12 +56,48 @@ function Login() {
      */
 
     return (
-        <body>
-            <img style={Login_imgstyle} src={logo} width="25%" height="25%" class="logo" alt="TBD Logo" />
+        <img src={logo} width="25%" height="25%" class="logo" alt="TBD Logo" />
 
-            <p style={Login_pstyle}> You are given the beginning and the end - the middle is TBD. </p>
+            <p> You are given the beginning and the end - the middle is TBD. </p>
 
-            <button style={Login_buttonstyle} type="button">Login</button>
+            <button type="button">Login With Google.</button>
+            <script>
+                // Import the functions you need from the SDKs you need
+                import { initializeApp } from "firebase/app";
+                import { getAnalytics } from "firebase/analytics";
+                // TODO: Add SDKs for Firebase products that you want to use
+                // https://firebase.google.com/docs/web/setup#available-libraries
+
+                // Your web app's Firebase configuration
+                // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+                const firebaseConfig = {
+                  apiKey: "AIzaSyBVaSxZr9jeetVaYxs4BXPPnv3WDj9sX8c",
+                  authDomain: "tbdswe-78b59.firebaseapp.com",
+                  databaseURL: "https://tbdswe-78b59-default-rtdb.firebaseio.com",
+                  projectId: "tbdswe-78b59",
+                  storageBucket: "tbdswe-78b59.appspot.com",
+                  messagingSenderId: "399530976557",
+                  appId: "1:399530976557:web:00dfdbd50f584f3129dfa4",
+                  measurementId: "G-VSLYKYFHZY"
+                };
+
+                // Initialize Firebase
+                const app = initializeApp(firebaseConfig);
+                const analytics = getAnalytics(app);
+                document.getElementByID('login').addEventListener('click',GoogleLogin);
+                
+                function GoogleLogin(){
+                    console.log('Login Btn Call')
+                    firebase_auth().SignInWithPopup(provider).then(res=>{
+                        console.log(res)
+                        
+                    }).catch(e=>{
+                        console.log(e)
+                    })
+                }
+
+            <script>
+
         </body>
     );
 }
