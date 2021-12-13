@@ -8,6 +8,9 @@ Back End: Deron Moore\
 Full Stack: Tosin Adeyemi\
 Misc (everything else): Team Collaboration
 
+# Previous Repo
+* Note: This new repo was created for the sake of time as there were many issues with our previous repo: https://github.com/Lailah001/TBD. More details can be found there as far as tasking and code that was changed.
+
 
 ## [Project Documentation](https://drive.google.com/drive/u/0/folders/1fflkjzXIfazVZ_adfZr3sFcW8R6DkTPD)
 * [Meeting Agendas](https://www.google.com/url?q=https://docs.google.com/document/d/15_Dao3CLNgXydNBfuAb5XrKeI7KNm1nxMDiHjIxBY7M/edit&sa=D&source=calendar&usd=2&usg=AOvVaw13dZk2U-blZN2c8GZVw-G5)
@@ -16,8 +19,8 @@ Misc (everything else): Team Collaboration
 * [Project Proposal Presentation](https://docs.google.com/presentation/d/1jQhQL-QbAMCM3v4I8bjfTyupHeKfOrv7sBOnkAvFjSY/edit?usp=sharing)
 * [Project Proposal Recording](https://drive.google.com/file/d/1z477nlVGZlXAcTV_SlC0jd6S6q1V2MKt/view?usp=sharing)
 * [Product Requirements Document](https://docs.google.com/document/d/1-x09Z8kJyZXvB_ZgD_usVYPDXn1HS6SLPrVc_JAKMbM/edit?usp=sharing)
-* UI/UX Design
-* Design Document
+* [UI/UX Design](https://docs.google.com/presentation/d/1GvKxFtk7E1GP7ke7di8B59pWyNHUlLEKhbe82Ukt-Pk/edit?usp=sharing)
+* [Design Document](https://docs.google.com/document/d/1CoXm-F0pXGUFv2N2qcQFCGOLraZpCP6JNRrC5t45U_Y/edit?usp=sharing)
 * Testing Plan
 * Final Presentation
 
