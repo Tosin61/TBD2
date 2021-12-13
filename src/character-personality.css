@@ -1,0 +1,40 @@
+/* <link rel="stylesheet" href="character-perosnality.css"> */
+body{
+    background-color: white;
+}
+
+p{
+    position: absolute;
+    width: 448px;
+    height: 497px;
+    left: 486px;
+    top: 327px;
+
+    font-family: Alegreya Sans SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+
+    color:black;
+    background-color: grey;
+}
+
+.button{
+    position: absolute;
+    left: 17.31%;
+    right: 17.31%;
+    top: 25.58%;
+    bottom: 26.74%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: black;
+    background-color: grey;
+}

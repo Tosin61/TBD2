@@ -1,0 +1,30 @@
+/* <link rel="stylesheet" href="scenarios.css"> */
+body{
+    background-color: white;
+}
+
+p{
+    position: absolute;
+    width: 903px;
+    height: 79px;
+    left: 252px;
+    top: 321px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: black;
+    }
+
+.button{
+    position: absolute;
+    width: 426px;
+    height: 396px;
+    left: 43px;
+    top: 519px;
+    background-color: grey;
+}

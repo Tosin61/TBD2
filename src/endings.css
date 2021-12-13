@@ -1,0 +1,39 @@
+/* <link rel="stylesheet" href="endings.css"> */
+body{
+    background-color: white;
+}
+div{
+    position: absolute;
+    width: 1337px;
+    height: 280px;
+    left: 51px;
+    top: 328px;
+
+    font-family: Alegreya Sans SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 173px;
+
+    color: #B91226;
+
+}
+
+.button{
+    position: absolute;
+    left: 17.31%;
+    right: 17.31%;
+    top: 25.58%;
+    bottom: 26.74%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: black;
+    background-color: grey;
+}

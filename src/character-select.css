@@ -1,0 +1,43 @@
+/* <link rel="stylesheet" href="character-select.css"> */
+
+body{
+    background-color: white;
+}
+
+p{
+    position: absolute;
+    width: 618px;
+    height: 45px;
+    left: 409px;
+    top: 114px;
+
+    font-family: Alegreya Sans SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    color: black;
+}
+
+.button{
+    position: absolute;
+    left: 17.31%;
+    right: 17.31%;
+    top: 25.58%;
+    bottom: 26.74%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: black;
+    background-color: grey;
+}
