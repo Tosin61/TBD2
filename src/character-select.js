@@ -5,11 +5,44 @@ import character3 from './Images/TBD character.PNG';
 import character4 from './Images/TBD character.PNG';
 import { useNavigate } from 'react-router-dom';
 
+
+
 function CharacterSelection() {
     //change pages
     let navigate = useNavigate();
     function routeChange(route) {
         navigate(route)
+    }
+
+    //css styles
+    const pstyle={
+        color: "black",
+        textDecoration: "underline",
+        fontFamily: "Copperplate",
+        fontSize: "50px"
+    }
+
+    /*const inputstyle={
+        padding: "10px"
+    }*/
+
+    const p2style={
+        fontFamily: "Copperplate"
+    }
+
+    const buttonstyle={
+        position: "relative",
+
+        fontFamily: "Copperplate",
+        fontStyle: "normal",
+        fontWeight: "bold",
+        fontSize: "24px",
+        lineHeight: "28px",
+        textAlign: "center",
+        textTransform: "uppercase",
+
+        color: "black",
+        backgroundColor: "grey",
     }
 
     /*
@@ -22,14 +55,14 @@ function CharacterSelection() {
 
     return (
         <body>
-            <p> Select Your Character </p>
+            <p style={pstyle}> Select Your Character </p>
             
-            <input type="image" src={character1} /> <p> Character 1 </p>
-            <input type="image" src={character2} /> <p> Character 2 </p>
-            <input type="image" src={character3} /> <p> Character 3 </p>
-            <input type="image" src={character4} /> <p> Character 4 </p>
+            <input type="image" src={character1} /> <p style={p2style}> Character 1 </p>
+            <input type="image" src={character2} /> <p style={p2style}> Character 2 </p>
+            <input type="image" src={character3} /> <p style={p2style}> Character 3 </p>
+            <input type="image" src={character4} /> <p style={p2style}> Character 4 </p>
 
-            <button type="button" onClick={() => navigate('/CharacterPersonality')}> Select </button>
+            <button style={buttonstyle} type="button" onClick={() => navigate('/CharacterPersonality')}> Select </button>
         </body>
     );
 }
